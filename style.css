@@ -1,0 +1,375 @@
+.circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 5px solid aqua;
+    background: linear-gradient(black,black);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: min(5em, 4%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+     
+}
+ 
+
+/* Diagonal Cross Lines */
+.cross-vertical-line,
+.cross-horizontal-line {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: aqua;
+     
+}
+.cross-vertical-line {
+    transform: rotate(45deg);
+     
+}
+
+.cross-horizontal-line {
+    transform: rotate(135deg);
+}
+.photo_1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+
+}
+.point_1{
+    font-size: 30px;
+    color: lime;
+    position: absolute;
+    margin-bottom: 70%;
+}
+.point_2{
+    font-size: 30px;
+    color: lime;
+    position: absolute;
+    margin-right: 70%;
+}
+.point_3{
+    font-size: 30px;
+    color: lime;
+    position: absolute;
+    margin-left: 70%;
+}
+.point_4{
+    font-size: 30px;
+    color: lime;
+    position: absolute;
+    margin-top: 70%;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    color: lime; /* Code rain color */
+    font-family: monospace;
+}
+
+/* Container for Rain */
+.rain-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* Click-through effect */
+}
+
+/* Rain Droplet (Single Line of Code) */
+.raindrop {
+    position: absolute;
+    top: -50px;
+    font-size: 18px;
+    opacity: 0.8;
+    animation: fall linear infinite;
+}
+
+/* Falling Animation */
+@keyframes fall {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(100vh);
+        opacity: 1;
+    }
+}
+
+.about{
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    background: black;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid aqua;
+    transform: translate(-50%, -50%);
+    padding: min(5em, 5%);
+    justify-content: center;
+    align-items: center;
+    display: none;
+     
+}
+ 
+.list{
+    position: absolute;
+    font-size: 30px;
+}
+.btn1{
+    position: absolute;
+    margin-top: 40%;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.head{
+    margin-bottom: 50%;
+    font-size: 40PX;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(20, end) forwards, blink 0.6s infinite;
+}
+ 
+@keyframes typing {
+    from { width: 0%; }
+    to { width: 50%;}
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+.projects{
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    background: black;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid aqua;
+    transform: translate(-50%, -50%);
+    padding: min(5em, 5%);
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+@keyframes typing {
+    from { width: 0%; }
+    to { width: 20%;}
+}
+
+.education{
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    background: black;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid aqua;
+    transform: translate(-50%, -50%);
+    padding: min(5em, 5%);
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.contact{
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    background: black;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid aqua;
+    transform: translate(-50%, -50%);
+    padding: min(5em, 5%);
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+.profile{
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    background: black;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid aqua;
+    transform: translate(-50%, -50%);
+    padding: min(5em, 5%);
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.photo_2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid aqua;
+    margin-left: 80%;
+    margin-bottom: 50%;
+}
+.photo_main{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: min(5em, 0%);
+    border: 5px dotted aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.photo_main_primary{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: min(5em, 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main_head{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: min(5em, 5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.title{
+    margin-bottom: 120%;
+}
+.name{
+    width: 1000px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: min(5em, 5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 40%;
+}
+.btn-primary{
+    position: absolute;
+    margin-top: 100%;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+#downloadPdf {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: black;
+    color: aqua;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 40%;
+}
+#back{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: black;
+    color: aqua;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 100%;
+    border: 2px solid aqua;
+}
+@keyframes glow {
+    0% { text-shadow: 0 0 5px cyan, 0 0 10px cyan; }
+    50% { text-shadow: 0 0 20px cyan, 0 0 40px cyan; }
+    100% { text-shadow: 0 0 5px cyan, 0 0 10px cyan; }
+  }
+
+.title{
+    animation: glow 2s infinite alternate;
+}
+  @media screen and (max-width: 768px) {
+    .photo_main{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: min(5em, 0%);
+        border: 5px dotted aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .point_1{
+        font-size: 25px;
+    }
+    .point_2{
+        font-size: 25px;
+    }
+    .point_3{
+        font-size: 25px;
+    }
+    .point_4{
+        font-size: 25px;
+    }
+    .title{
+        margin-bottom: 120%;
+    }
+    .btn-primary{
+        margin-top: 120%;
+    }
+    #downloadPdf{
+        margin-top: 120%;
+        border: 5px solid aqua;
+
+    }
+
+  }
