@@ -1,82 +1,126 @@
-<DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Page title</title>
-        <link rel="stylesheet" href="style.css">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Line with 70° Turn</title>
+    <link rel="Stylesheet" href="style_3.css">
+</head>
+<body>
+    <div class="rain-container"></div>
      
-    </head>
-    <body>
-        <div class="rain-container"></div>
-        <div class="main_head">
-            <div class="title">DIGITAL PORTFOILO</div>
-            <div class="name">VIGNESH K | WEBDEVELPOR</div>
-            <button class="btn-primary" onclick="primary()">CLICK ME</button>
+    <div class="prime_page">
+    <h1 class="title">DIGTAL PORTFOLIO</h1> 
+    <h1 class="title1">DIGTAL PORTFOLIO</h1> 
+    <img src="vignesh_1.jpg" alt="Education Image" class="prime_photo">
+    <img src="vignesh_1.jpg" alt="Education Image" class="prime_photo_1">
+    <h1 class="name">K VIGNESH | WEBDEVELOPER</h1>
+    <h1 class="Name_1">K VIGNESH </h1>
+
+    <button class="prime_button" onclick="menu()">MENU</button>
+    <iframe id="pdfPreview" style="width: 100%; height: 500px; border: 1px solid #ccc; display: none; "></iframe>
+    <button class="prime_button_1" id="downloadPdf">RESUME</button>
+    </div>
+
+    <div class="aling"> 
+         
+        <div class="main_line_1">
+            <iframe id="pdfPreview1" style="width: 100%; height: 500px; border: 1px solid #ccc; display: none; "></iframe>
+            <div class="line_1"><div class="inline_1"><button class="btn_1" id="downloadPdf1">CERTIFICATE</button></div></div>
+            <div class="line_2"><div class="inline_2"><button class="btn_2" onclick="project()">PROJECTS</button></div></div>
         </div>
-        <img src="Vignesh_1.jpg" alt="Education Image" class="photo_main">
-        <img src="Vignesh_1.jpg" alt="Education Image" class="photo_main_primary">
-        <div class="circle">
-            <div class="cross-vertical-line"></div>
-            <div class="cross-horizontal-line"></div>
-            <img src="vignesh_1.jpg" alt="Education Image" class="photo_1" onclick="profile()">
-            <div class="point_1" onclick="one()" >SKILS    AND TECHNOLOGY</div>
-            <div class="point_2" onclick="two()">EDUCATION</div>
-            <div class="point_3" onclick="three()">PROJECTS</div>
-            <div class="point_4" onclick="four()">CONTACT INFORMATION</div>
-            <iframe id="pdfPreview" style="width: 100%; height: 500px; border: 1px solid #ccc; display: none; "></iframe>
-            <button id="back" onclick="back()">BACK</button>
-            <!-- Button for downloading PDF -->
-            <button id="downloadPdf">RESUME
-    
-            </button>
-            </div>
+        <div class="main_line_2">
+             <div class="righit_line_1"><div class="inline_1"><button class="btn_3" onclick="contact()">CONTACT</button></div></div>
+             <div class="righit_line_2"><div class="inline_2"><button class="btn_4" onclick="about()">ABOUT</button></div></div>
+        </div>''
+        <div class="mid-line">
+             <div class="righit_mid_line"><div class="inline_mid_right"><button class="btn_5" onclick="skils()">SKILS</button></div></div>
+             <div class="left_mid_line"><div class="inline_2"><button class="btn_6" onclick="education()">EDUCATION</button></div></div>
+             <img src="vignesh_1.jpg" alt="Education Image" class="photo_main">
+             <img src="vignesh_1.jpg" alt="Education Image" class="photo_main_1">
+             <img src="vignesh_1.jpg" alt="Education Image" class="photo_main_2">
+             <img src="vignesh_1.jpg" alt="Education Image" class="photo_main_3">
         </div>
-        <div class="about">
-            <h1 class="head">SKILS AND TECHNOLOGY</h1>
-            <ul class="list">
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>JAVA</li>
-                <li>JAVASCRIPT</li>
-                <li>PYTHON</li>
-            </ul>
-            <button class="btn1" onclick="closeabout_1()">Back</button>
-        </div>
-        <div class="projects">
-            <h1 class="head">PROJECTS</h1>
-            <ul class="list">
-                <li>Digital Portfoilo</li>
-            </ul>
-            <button class="btn1" onclick="closeabout_2()">Back</button>
-        </div>
-        <div class="education">
-            <h1 class="head">EDUCATION</h1>
-            <ul class="list">
-                <li>B.SC COMPUTER SCIENCE</li>
-            </ul>
-            <button class="btn1" onclick="closeabout_3()">Back</button>
-        </div>
-        <div class="contact">
-            <h1 class="head">CONTACT</h1>
-            <ul class="list">
-                <li>Email : k.vignesh02042006@gamil.com</li>
-                <li>Phone : 7637677357</li>
-            </ul>
-            <button class="btn1" onclick="closeabout_4()">Back</button>
-        </div>
-        <div class="profile">
-            <h1 class="head">ABOUT US</h1>
-            <img src="Vignesh_1.jpg" alt="Education Image" class="photo_2">
-            <ul class="list">
-                <li>I am Vignesh, currently pursuing my II B.Sc. Computer Science<br>
-                    Government Arts College. Passionate about technology and programming<br>
-                    I am eager to explore and enhance my skills in the world of computing.<br>
-                    Constantly learning and growing, I strive to stay updated with the latest<br>
-                     advancements in the field.</li>
-                 
-            </ul>
-            <button class="btn1" onclick="closeabout_5()">Back</button>
-        </div>
-        <script src="script.js"></script>
-    </body>
-    </html>
+    </div>
+    <div class="skils">
+        <h1 class="head">SKILS</h1>
+        <ul class="list">
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>JAVA</li>
+            <li>JAVASCRIPT</li>
+            <li>PYTHON</li>
+        </ul>
+        <ul class="list1">
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>JAVA</li>
+            <li>JAVASCRIPT</li>
+            <li>PYTHON</li>
+        </ul>
+        <button class="btn1" onclick="closeabout_1()">Back</button>
+    </div>
+    <div class="projects">
+        <h1 class="head">PROJECTS</h1>
+        <ul class="list">
+            <li>Digital Portfoilo</li>
+        </ul>
+        <ul class="list1">
+            <li>Digital Portfoilo</li>
+        </ul>
+        <button class="btn1" onclick="closeabout_2()">Back</button>
+    </div>
+    <div class="education">
+        <h1 class="head">EDUCATION</h1>
+        <ul class="list">
+            <li>B.SC COMPUTER SCIENCE</li>
+        </ul>
+        <ul class="list1">
+            <li>B.SC COMPUTER SCIENCE</li>
+        </ul>
+        <button class="btn1" onclick="closeabout_3()">Back</button>
+    </div>
+    <div class="contact">
+        <h1 class="head">CONTACT</h1>
+        <ul class="list">
+            <li>Email : k.vignesh02042006@gamil.com</li>
+            <li>Phone : 7637677357</li>
+        </ul>
+        <ul class="list1">
+            <li>Email : k.vignesh02042006@gamil.com</li>
+            <li>Phone : 7637677357</li>
+        </ul>
+        <button class="btn1" onclick="closeabout_4()">Back</button>
+    </div>
+    <div class="profile">
+        <h1 class="head">ABOUT US</h1>
+        <img src="vignesh_1.jpg" alt="Education Image" class="photo_2">
+        <ul class="list">
+            <li>I am Vignesh, currently pursuing my II B.Sc. Computer Science<br>
+                Government Arts College. Passionate about technology and <br>programming 
+                I am eager to explore and enhance my skills in<br> the world of computing. 
+                Constantly<br> learning and growing, I strive to stay updated<br> with the latest 
+                 advancements in the field.</li>
+             
+        </ul>
+        <ul class="list1">
+            <li>I am Vignesh, currently pursuing my II B.Sc. Computer Science<br>
+                Government Arts College. Passionate about technology and <br>programming 
+                I am eager to explore and enhance my skills in<br> the world of computing. 
+                Constantly<br> learning and growing, I strive to stay updated<br> with the latest 
+                 advancements in the field.</li>
+             
+        </ul>
+        <button class="btn1" onclick="closeabout_5()">Back</button>
+    </div>
+         
+  
+    <script src="script_new.js"></script>
+     
+         
+
+</body>
+<body1>
+     
+</body1>
+</html>
