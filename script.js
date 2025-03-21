@@ -75,6 +75,10 @@ function closeabout_5(){
     document.querySelector(".aling").style.display = "flex";
     document.querySelector(".profile").style.display = "none";
 }
+function back(){
+    document.querySelector(".prime_page").style.display = "flex";
+    document.querySelector(".aling").style.display = "none";
+}
 // Path to the PDF file stored in the project
 const pdfFilePath = "VIGNESH_resume.pdf";  // Make sure this file exists in the correct location
 
